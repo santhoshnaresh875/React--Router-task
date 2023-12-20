@@ -1,0 +1,74 @@
+/* App.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e8bf0b;
+  padding: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #58a5b7;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.navigation a:hover {
+  background-color: #ca49a7;
+}
+
+.active {
+  background-color: #d34511;
+}
+
+
+.card {
+  flex: 0 0 calc(33.33% - 20px); /* Adjust the percentage based on your design */
+  background-color: #c4cec6;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(113, 121, 4, 0.1);
+  max-width: 400px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.card-content {
+  color: #24b75f;
+}
+
+.card-content h2 {
+  margin-bottom: 12px;
+}
+
+.card-content p {
+  color: #0ba3be;
+  margin-bottom: 16px;
+}
+
+.read-more {
+  display: inline-block;
+  color: #a41380;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
